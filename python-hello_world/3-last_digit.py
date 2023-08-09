@@ -4,7 +4,7 @@ import random
 number = random.randint(-10000, 10000)
 
 # Get the last digit of the number using the remainder (%) operator
-last_digit = abs(number) % 10
+last_digit = number % 10
 
 # Determine the sign for the last digit
 sign = "-" if number < 0 else ""
